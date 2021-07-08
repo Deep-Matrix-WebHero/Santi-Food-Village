@@ -1,0 +1,164 @@
+* {
+    margin: 0%;
+    padding: 0%;
+  }
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+  }
+  section {
+    height: 500px;
+  margin-bottom: 5%;
+  }
+  .half-width {
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+  }
+  h1 {
+    font-size: 50px;
+  }
+  h1 span {
+    color: orange;
+  }
+  .half-width img {
+      display: flex;
+    width:80%;
+   padding-top: 5px;
+   padding-right: 5px;
+   padding-bottom: 10px;
+   padding-left: 5px;
+  }
+  .link-button {
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    color: white;
+    border-radius: 30px;
+    padding: 15px 20px 15px 20px;
+    font-size: 20px;
+    margin-top: 30px;
+    display: inline-block;
+  }
+  /* 2nd section */
+  .about-me {
+    background-image: url("images/shapes/7.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    margin-top: 0;
+    margin-left: 0;
+    padding: 5%;
+    background-position: left;
+  }
+
+
+  /*3rd section to last css*/
+  .main {
+    font-size: 20px;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+  }
+  .main h1{
+      padding: 10px;
+      
+  }
+  .main p{
+    padding: 10px;
+    margin-bottom: 5px;
+  }
+  
+  .cards {
+    width: 25%;
+    display: inline-block;
+    background-color: white;
+    border-radius: 30px;
+    margin: 40px;
+    box-shadow: 3px 3px 10px gray;
+  }
+  .img img {
+    width: 92%;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    margin: 10px;
+    border-radius: 30px;
+  }
+  .tittle {
+    text-align: center;
+  }
+  .description {
+    text-align: center;
+    padding: 4px;
+  }
+  button {
+    margin: 30px;
+    margin-bottom: 30px;
+    background-color: white;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  button:hover {
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+  }
+  .cards-2 {
+    width: 1200px;
+    height: 250px;
+  
+    display: inline-block;
+    background-color: white;
+    border-radius: 30px;
+    margin: 40px;
+    box-shadow: 3px 3px 10px gray;
+  }
+  .footer {
+    background-color: cadetblue;
+    font-size: 20px;
+  }
+  .footer h1 {
+    font-weight: 50px;
+    text-align: center;
+  }
+  .footer h3 {
+    font-weight: 20px;
+    text-align: center;
+    margin-top: 10px;
+  }
+  .color {
+    color: coral;
+  }
+  h4 {
+    padding: 2%;
+    text-align: center;
+  }
+  
+  .column {
+    float: right;
+    width: 33.33%;
+    padding: 40px;
+    height: 150px;
+    background-color: white;
+    text-align: center;
+  
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  .row {
+    box-shadow: 2px 2px 10px gray;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    border-radius: 5px;
+  }
+  
