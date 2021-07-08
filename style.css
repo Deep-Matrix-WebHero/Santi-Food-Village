@@ -5,6 +5,7 @@
 body {
     font-family: "Poppins", sans-serif;
     margin: 0;
+   
   }
   section {
     height: 500px;
@@ -49,6 +50,8 @@ body {
     margin-left: 0;
     padding: 5%;
     background-position: left;
+    text-align: justify;
+    text-justify: inter-word;
   }
 
 
@@ -57,7 +60,8 @@ body {
     font-size: 20px;
     text-align: center;
     font-family: "Poppins", sans-serif;
-  }
+}
+    
   .main h1{
       padding: 10px;
       
@@ -65,32 +69,40 @@ body {
   .main p{
     padding: 10px;
     margin-bottom: 5px;
+    
+  
   }
   
   .cards {
-    width: 25%;
+    width:25%;
     display: inline-block;
     background-color: white;
     border-radius: 30px;
     margin: 40px;
     box-shadow: 3px 3px 10px gray;
+   
   }
+
   .img img {
     width: 92%;
-    padding-top: 5px;
-    padding-right: 5px;
-    padding-bottom: 5px;
-    padding-left: 5px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
     margin: 10px;
     border-radius: 30px;
   }
   .tittle {
     text-align: center;
+  
   }
   .description {
-    text-align: center;
+    
     padding: 4px;
-  }
+   
+    }
+    
+ 
   button {
     margin: 30px;
     margin-bottom: 30px;
